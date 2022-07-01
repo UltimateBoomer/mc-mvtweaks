@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "mvtweaks",
+  "version": "${version}",
+
+  "name": "Movement Tweaks",
+  "description": "Movement Tweaks",
+  "authors": [
+    "UltimateBoomer"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/mvtweaks/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "io.github.ultimateboomer.mvtweaks.MovementTweaks"
+    ],
+    "modmenu": [
+      "io.github.ultimateboomer.mvtweaks.config.MovementTweaksModMenu"
+    ]
+  },
+  "mixins": [
+    "mvtweaks.mixins.json"
+  ],
+
+  "depends": {
+    "fabric": "*",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

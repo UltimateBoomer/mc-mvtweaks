@@ -1,0 +1,8 @@
+{
+  "text.autoconfig.motionviewer.title": "Motion Viewer",
+
+  "text.autoconfig.motionviewer.option.showVelocity": "Show velocity in debug menu",
+  "text.autoconfig.motionviewer.option.showAccel": "Show acceleration in debug menu",
+  "text.autoconfig.motionviewer.option.avgInterval": "Averaging interval",
+  "text.autoconfig.motionviewer.option.debugListPos": "Position in debug menu"
+}
